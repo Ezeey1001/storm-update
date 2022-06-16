@@ -1,0 +1,581 @@
+
+body{
+   background-color: #0B1D26;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+
+}
+
+.trans-bg{
+   position: absolute;
+   top: -450px;
+   bottom: 0px;
+   left: 0;
+}
+
+
+
+#contactheader{
+
+    background-color: #EFB621;
+    font-family: Roboto;
+    text-transform: capitalize;
+    font-style: semi-bold;
+     border-radius: 5px;
+     font-size: 18px;
+     font-weight: 600;
+     color:#ffffff;
+     height: 41px;
+     width: 135px;
+
+
+
+}
+
+.btn{
+   margin-right: -200px;
+}
+
+.navbar-expand-lg{
+   background-image: url(../img/Header\ BG.png);
+   background-position: center;
+   background-size: cover;
+     
+}
+
+
+.navbar-brand{
+   margin-left: 100px;
+}
+
+
+
+
+
+
+
+
+.container-fluid{
+
+
+   height: 1200px;
+    
+    background-image: url("../img/bgground.png");
+ width: 100%;
+ background-size:cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ padding-top: 30px;
+
+}
+
+
+.Contact{
+
+background-color: #0B1D26;
+background-image: url('../img//contact.png');
+background-size:cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 1100px;
+
+}
+
+
+
+.knock{
+   background-color: #ffffff;  background-image: linear-gradient(#fff, #fff);
+   border-top-left-radius:10px;
+   border-top-right-radius:10px;
+   border-bottom-left-radius: 50% 20%;
+   border-bottom-right-radius: 50% 20%;
+
+}
+
+
+.about{
+
+background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%);
+margin-top: -550px;
+padding-top:500px;
+padding-bottom: -50px;
+
+}
+
+.boxing{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 120px;
+   
+
+}
+
+
+
+#aboutleft{
+
+ padding-right: 50px;
+ margin-top: -5%;
+ padding-top: -5px;
+
+
+}
+#aboutright{
+bottom: 30px; 
+padding-left: 50px;
+
+}
+
+
+
+
+
+.passion{
+
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 50px;
+   line-height: 85px;
+   
+   color: #FFFFFF;
+
+}
+.exclusive{
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+
+color: #FFFFFF;
+
+
+
+
+
+}
+.jumbotron-fluid{
+
+
+
+margin-top: -40px;
+background:transparent;
+text-align: right;
+justify-content: right;
+
+
+
+}
+
+.lead{
+   width: 513px;
+   color:#E7C981;
+   font-size: 18px;
+   text-align: right;
+   justify-content: flex-end;
+
+}
+
+.lead p{
+   text-align: left;
+   padding-right: 5px;
+   align-content: flex-end;
+}
+
+.social{
+   color: #ffffff;
+   font-size: 14px;
+   vertical-align: top;
+   writing-mode: vertical-lr;
+  top: 13em;
+   text-align: left;
+   position: relative;
+   left: -75px;
+   
+}
+.socialb{
+   color: #ffffff;
+   font-size: 18px;
+   vertical-align: top;
+   writing-mode: vertical-lr;
+   
+   text-align: left;
+}
+
+ .fa{
+  padding-top: 12px;
+  font-size: 25px;
+}
+
+.display-4{
+   text-align: right;
+   
+}
+.active{
+   border-bottom: #E7C981 1px solid;
+   transition: all 0.6s ease;
+}
+
+#headtext{
+font-size: 80px;
+font-family: Playfair Display;
+color: #ffffff;
+padding-top: -25px;
+padding-left: 0.7em;
+line-height: 100px;
+text-align: right;
+}
+
+#about-us{
+   display: flex;
+   
+  
+   
+}
+
+
+
+.about-text p{
+   color: #ffffff;
+   align-content: center;
+   justify-content: left;
+   text-align: left;
+   align-content: center;
+   font-size: 18px;
+   font-weight: 400;
+}
+
+#about-us h2{
+   color: #ffffff;
+}
+.about-text{
+   color: #E7C981;
+}
+
+.img-about{
+   width: 500px;
+   height: 500px;
+   margin-top: -7%;
+   padding-left: 50px;
+}
+
+.image{
+   width: 556px;
+   height: 500px;
+   margin-top: -25px;
+
+}
+
+/* About section */
+
+.container-about{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-left: 5%;
+   padding-right: 5%;
+}
+
+/*-------Vision & Mission---------*/
+
+
+#ourvission{
+
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 18px;
+   line-height: 21px;
+   /* identical to box height */
+   
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   
+   /* BG */
+   
+   color: #0B1D26;
+   margin-top: -30px;
+
+
+
+}
+
+#mission{
+
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 50px;
+   line-height: 21px;
+   /* identical to box height */
+   
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   
+   /* BG */
+   
+   color: #0B1D26;
+   margin-top: 20px;;
+ 
+
+
+}
+
+
+
+#vision{
+   background-color: #ffffff;
+   flex-basis: 32%;
+   min-width: 310px;
+   text-align: center;
+   align-items: center;
+   box-shadow: 5px 5px 10px -5px ;
+   border-radius: 15px;
+   padding-top: 30px;
+   padding-bottom: -30px;
+   border: 2px solid #cccccc;
+ 
+   
+}
+
+#vision p{
+   text-align: center;
+}
+
+#vision li{
+   text-align: left;
+   max-width: 25em;
+}
+
+.img-fluid{
+   font-size: 120px;
+}
+
+
+
+
+#visiontop{
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 96px;
+/* identical to box height */
+
+
+color: rgba(53, 65, 71, 0.4);
+
+opacity: 0.5;
+
+
+ 
+   
+}
+
+#visionimg{
+
+   margin-top: -120px;
+}
+
+.border-box{
+   width: 350px;
+   height: 450px;
+   
+   border: #ffffff 2px solid;
+   background-color: #ffffff;
+   margin-top: 50px;
+   border-radius: 15px;
+   column-gap: 50px;
+
+   
+}
+
+.border-box p{
+   color: #354147;
+   text-align: justify;
+   justify-content: center;
+   align-content: center;
+   
+}
+
+.box-icon{
+   text-align: center;
+   font-size: 40px;
+}
+.border-box h2{
+   text-align: center;
+   font-size: 50px;
+   color: rgba(53, 65, 71, 0.8);
+   
+}
+
+.border-box h5{
+   text-align: center;
+   font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+
+   .btn{
+      margin-right: -80px;
+   }
+
+  .navbar-brand{
+  
+   margin-left: 3em;
+  }
+
+
+  .nav-item {
+   margin-left: 3.5em;
+  }
+
+  #contactheader{
+   margin-left: 3em;
+  }
+
+ 
+/* About Section */
+ 
+.container-about{
+   display: block;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+#aboutleft img{
+   width: 10em;
+}
+
+.passion{
+   font-size: 25px;
+}
+
+.exclusive{
+   font-size: 16px;
+   min-width: 100%;
+   padding: 10px 25px;
+}
+
+.img-about{
+   width: 100%;
+   height: 100%;
+   position: relative;
+   top: 80px;
+   right: 55px;
+   bottom: 0px;
+}
+
+
+
+   #headtext {
+      font-size: 40px;
+      font-family: Playfair Display;
+      color: #ffffff;
+      text-align: right;
+      
+      
+   }
+
+   #container-fluid{
+     max-height :600px; ; 
+    
+      background-image: url("../img/bgground.png");
+   
+   background-size:contain;
+   background-repeat: no-repeat;
+   padding-top: 30px;
+
+
+
+
+
+   }
+
+   #container{
+     padding: 15px 15px;
+   }
+
+
+   .navbar-brand img{
+   width: 100px;
+  }
+
+  #contactheader{
+   padding: 10px 12px;
+   
+  }
+
+
+  .social{
+   color: #ffffff;
+   font-size: 14px;
+   vertical-align: top;
+   writing-mode: vertical-lr;
+   top: 12.2em;
+   text-align: left;
+   position: relative;
+   left: -20px;
+   
+}
+.socialb{
+   color: #ffffff;
+   font-size: 18px;
+   vertical-align: top;
+   writing-mode: vertical-lr;
+   
+   text-align: left;
+}
+
+ .fa{
+  padding-top: 12px;
+  font-size: 20px;
+}
+
+#headtext{
+   line-height: 55px;
+}
+
+.container-fluid{
+
+
+   height: 750px;
+  
+    background-image: url("../img/bgground.png");
+ 
+ background-size:cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ padding-top: 20px;
+
+}
+
+
+
+ .about-rd{
+   border-bottom-left-radius: 20px 15px;
+  border-bottom-right-radius: 15px 25px;
+  
+  padding-bottom: 100px;
+  bottom: 0;
+  position: relative;
+  z-index: 5;
+ }
+
+ .container-about-2{
+   gap: 40px;
+   margin-bottom: 20px;
+ }
+
+ /* Footer */
+
+ 
+
+ }

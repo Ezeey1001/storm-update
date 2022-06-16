@@ -1,0 +1,303 @@
+
+body{
+
+    background-color: #0B1D26; 
+    font-family: 'Quicksand', sans-serif; 
+   }
+   
+   #contactheader{
+   
+       background-color: #EFB621;
+       font-family: Roboto;
+        border-radius: 5px;
+        font-size: 18px;
+        font-weight: 600;
+        color:#ffffff;
+        height: 41px;
+        width: 135px;
+   
+   
+   
+   }
+
+ 
+   
+   
+   .Contact{
+   
+   background-color: #0B1D26;
+   background-image: url('../img//contact.png');
+   background-size:cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 1100px;
+   
+   }
+
+  
+   
+   .about{
+   
+   background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%);
+   
+   
+   
+   margin-top: -550px;
+   padding-top:500px ;
+   padding-bottom: -50px;;
+   
+   }
+   
+   input{
+   
+      background: rgba(53, 65, 71, 0.1);
+      border: 1px solid rgba(53, 65, 71, 0.1);
+      box-sizing: border-box;
+      border-radius: 4px;
+   
+   }
+
+ 
+   #Enquiry{
+      font-family: 'Playfair Display';
+      font-style: normal;
+      text-align: center;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 50px;
+      margin-bottom: 30px;
+      margin-top: -70px;
+      
+      color: #354147;
+   
+   }
+
+   .contact-form input{
+      max-width: 460px;
+   }
+   
+   .navbar{
+     
+     background-color: #0B1D26;
+     max-height: 45px;
+     padding-top: 55px;
+
+
+   }
+
+
+  
+
+ 
+
+   
+   #aboutleft{
+   
+    padding-right: 50px;
+    margin-top: 100px;
+   
+   }
+   #aboutright{
+   
+   padding-left: 50px;
+   
+   }
+   
+   .passion{
+   
+      font-family: 'Playfair Display';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 85px;
+      
+      color: #FFFFFF;
+   
+   }
+   .exclusive{
+   
+      font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 32px;
+   
+   color: #FFFFFF;
+   
+   
+   
+   
+   
+   }
+   .jumbotron-fluid{
+   
+   
+   
+   margin-top: 60px;
+   background:transparent;
+   text-align: right;
+   justify-content: right;
+   
+   
+   
+   }
+   
+   .lead{
+      width: 513px;
+      color:#E7C981;
+      font-size: 18px;
+      text-align: right;
+      justify-content: flex-end;
+   
+   }
+   
+   .lead p{
+      text-align: left;
+      padding-right: 5px;
+      align-content: flex-end;
+   }
+   
+  
+
+   .fa{
+      padding-top: 12px;
+      font-size: 25px;
+    }
+    
+   
+   .display-4{
+      text-align: right;
+   }
+   
+   
+   #headtext{
+   font-size: 88px;
+   font-family: Playfair Display;
+   color: #ffffff;
+   text-align: right;
+   }
+   
+   #about-us{
+      display: flex;
+      background-color: #354147;
+      text-align: left;
+      
+   }
+   
+   .container{
+      margin-top: -40px;
+      padding-left: 40px;
+   }
+   
+   .about-text p{
+      color: #ffffff;
+      align-content: center;
+      justify-content: left;
+      text-align: left;
+      align-content: center;
+      font-size: 18px;
+      font-weight: 400;
+   }
+   
+   #about-us h2{
+      color: #ffffff;
+   }
+   .about-text{
+      color: #E7C981;
+   }
+   
+   .image{
+      width: 556px;
+      height: 500px;
+      margin-top: -25px;
+   
+   }
+
+   
+   /*-------Vision & Mission---------*/
+   
+   
+   
+   
+   @media only screen and (max-width: 600px) {
+        
+      .navbar{
+     
+         background-color: #0B1D26;
+         max-height: 45px;
+         padding-top: 55px;
+    
+    
+       }
+
+       .container-fluid{
+         margin-top: -40px;
+       }
+    
+   #aboutleft{
+   
+      padding-right: 0px;
+      margin-top: 0px;
+     
+     }
+     #aboutright{
+     
+     padding-left: 0px;
+     
+     }
+   
+      #headtext {
+         font-size: 40px;
+         font-family: Playfair Display;
+         color: #ffffff;
+         text-align: right;
+         
+         
+      }
+   
+      #container-fluid{
+        max-height :600px; ; 
+       
+         background-image: url("../img/bgground.png");
+      
+      background-size:contain;
+      background-repeat: no-repeat;
+      padding-top: 30px;
+
+   
+      }
+
+      .form{
+         position: absolute;
+         left: -100px;
+         right: 70px;
+         
+       }
+       .contain{
+         width: 100%;
+       }
+
+       .social{
+         font-weight: bold;
+         font-size: 14px;
+         vertical-align: top;
+         writing-mode: vertical-lr;
+        top: 13em;
+         text-align: left;
+         position: relative;
+         left: -25px;
+         
+      }
+      .socialb{
+         font-weight: bo;
+         font-size: 18px;
+         vertical-align: top;
+         writing-mode: vertical-lr;
+         
+         text-align: left;
+
+      }
+       
+
+       
+    }
